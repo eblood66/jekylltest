@@ -6,7 +6,7 @@
       },
       {
       "pattern": "[^.]*$",
-      "replacement": "$.md"
+      "replacement": "$1.md"
       },
       {
       "pattern": "^/",
