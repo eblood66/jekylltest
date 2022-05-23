@@ -1,8 +1,16 @@
 {
     "replacementPatterns": [
       {
+      "pattern": "^/([^.]*)$",
+      "replacement": "{{BASEURL}}/docs/$1.md"
+      },
+      {
+      "pattern": "[^.]*$",
+      "replacement": "$.md"
+      },
+      {
       "pattern": "^/",
-      "replacement": "{{BASEURL}}/"
+      "replacement": "{{BASEURL}}/docs/"
       }
     ],
     "aliveStatusCodes": [
