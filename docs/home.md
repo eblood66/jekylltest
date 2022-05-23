@@ -17,7 +17,7 @@ permalink: "/"
 [test-hyperlink-3](test)<br>
 [another-sub-folder-test](/testrepo/subdocs/subd)
 
-- <b>[T home page](tardis-orverview#what-is-the-tardis)</b>:
+- <b>[T home page](tardis-orverview#what-is-the-tardis)</b>: Does not [exist](thisisanerror)
 
 # SEARCH :mag: 
 You can <b>[Search](/testrepo/search)</b> with a combination of keywords for any of our for documentation results, there is always a Markdown file listed (*.md).
