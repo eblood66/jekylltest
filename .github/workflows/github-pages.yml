@@ -29,6 +29,8 @@ jobs:
        use-quiet-mode: 'no'
        use-verbose-mode: 'yes'      
        config-file: '.mlc_config.json'      
+    - name: directory listing
+      run: ls ${{ github.workspace }}    
     - uses: actions/upload-artifact@v3
       with:
         name: output.txt
