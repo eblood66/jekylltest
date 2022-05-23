@@ -1,12 +1,10 @@
 {
-     "projectBaseUrl" : "https://vanamsandeep.github.io/testrepo/",
-     "baseUrl": "https://vanamsandeep.github.io/testrepo/",
     "replacementPatterns": [
       {
       "pattern": "^/",
       "replacement": "{{BASEURL}}/"
-    }
-  ],
+      }
+    ],
     "aliveStatusCodes": [
         200,
         429
