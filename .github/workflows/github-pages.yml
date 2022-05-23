@@ -29,4 +29,7 @@ jobs:
        use-quiet-mode: 'no'
        use-verbose-mode: 'yes'      
        config-file: '.mlc_config.json'      
-    
+    - uses: actions/upload-artifact@v3
+      with:
+        name: output.txt
+        path: /github/workspace/errors.txt    
