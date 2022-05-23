@@ -1,12 +1,12 @@
 {
     "replacementPatterns": [
       {
-      "pattern": "^/([^.]*)(?:#|$)",
-      "replacement": "{{BASEURL}}/docs/$1.md"
+      "pattern": "^/([^.]*)(#|$)",
+      "replacement": "{{BASEURL}}/docs/$1.md$2"
       },
       {
-      "pattern": "([^.]*)(?:#|$)",
-      "replacement": "$1.md"
+      "pattern": "([^.]*)(#|$)",
+      "replacement": "$1.md$2"
       },
       {
       "pattern": "^/",
